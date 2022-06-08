@@ -1,12 +1,7 @@
-var name1 = 'Eddie';
+// Make a loop that console.log even numbers from 1-10
 
-var item1 = 4;
-var item2 = 4;
+for (let i = 1; i < 10; i ++){
+if (i % 2 == 0)
+console.log(i);
 
-var total = item1 >= item2;
-
-name = 'Tobi';
-
-
-console.log(name1)
-console.log(total)
+}
